@@ -50,6 +50,17 @@ To answer these questions, I used SQL queries that extracted the necessary data 
 * Microsoft Excel
 * VSCode
 
+## Files
+* Data Modeling -
+    * [ERD_Diagram](./Employee_SQL/ERD_Diagram.png)
+    * [ERD_Schema](./Employee_SQL/ERD_Schema.txt)
+
+* Data Engineering - 
+    * [SQL_Schema](./Employee_SQL/Schema.sql)
+
+* Data Analysis - 
+    * [SQL_Queries](./Employee_SQL/Queries.sql)
+
 ## Notes
 * The Tables were populated using the Import function in PostgreSQL 
 * Under the instructions of Van Kruger (The Instructor) Employees.CSV had to be edited to work with PostgreSQL due to date format, Employees_FIXED.CSV file was created and used to import the data to the emplyees table
