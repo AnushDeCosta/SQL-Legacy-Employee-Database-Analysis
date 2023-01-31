@@ -6,9 +6,9 @@ Student Name - Anush De Costa Module 9 Challenge Name - Pewlett Hackard SQL-Chal
 
 This project consists of three main parts: 
 
-*[Data Modeling](Modeling) 
-*[Data Engineering](Engineering)   
-*[Data Analysis](Analysis) 
+* [Data Modeling](Modeling) 
+* [Data Engineering](Engineering)   
+* [Data Analysis](Analysis) 
 
 In the first part, the CSV files are inspected and an Entity Relationship Diagram (ERD) of the tables is sketched. 
 In the second part, a table schema is created for each of the six CSV files and the data from the CSV files are imported into the SQL database.
@@ -25,21 +25,21 @@ It was important to create the tables in the correct order so that the foreign k
 ## <a name="Analysis"></a>Data Analysis
 The final part of the project is to answer various questions about the data. The questions are:
 
-*List the employee number, last name, first name, sex, and salary of each employee.
+* List the employee number, last name, first name, sex, and salary of each employee.
 
-*List the first name, last name, and hire date for the employees who were hired in 1986.
+* List the first name, last name, and hire date for the employees who were hired in 1986.
 
-*List the manager of each department along with their department number, department name, employee number, last name, and first name.
+* List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
-*List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
-*List the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+* List the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 
-*List each employee in the Sales department, including their employee number, last name, and first name.
+* List each employee in the Sales department, including their employee number, last name, and first name.
 
-*List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-*List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+* List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 To answer these questions, I used SQL queries that extracted the necessary data from the SQL database.
 
