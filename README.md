@@ -6,23 +6,23 @@ Student Name - Anush De Costa Module 9 Challenge Name - Pewlett Hackard SQL-Chal
 
 This project consists of three main parts: 
 
-* [Data Modeling](Modeling) 
-* [Data Engineering](Engineering)   
-* [Data Analysis](Analysis) 
+* Data Modeling
+* Data Engineering   
+* Data Analysis
 
 In the first part, the CSV files are inspected and an Entity Relationship Diagram (ERD) of the tables is sketched. 
 In the second part, a table schema is created for each of the six CSV files and the data from the CSV files are imported into the SQL database.
 In the final part, various questions about the data are answered via SQL queries.
 
-## <a name="Modeling"></a>Data Modeling
+## Data Modeling
 In this section I inspected the CSV files and create a visual representation of the relationships between the tables. To do this, I used a tool called QuickDBD. This tool allowed me to draw a diagram that shows the relationships between tables, including the primary keys, foreign keys, and other constraints.
 
-## <a name="Engineering"></a>Data Engineering
+## Data Engineering
 Once I created the ERD, the next step was to create the table schemas for each of the six CSV files. To do this, I specified the data types, primary keys, foreign keys, and other constraints for each column. I also needed to make sure that the primary keys are unique. 
 
 It was important to create the tables in the correct order so that the foreign keys could be referenced correctly. I imported the data from the CSV files into the corresponding SQL tables. To avoid errors, it was important to import the data in the same order as the tables were created and to account for the headers when importing the data.
 
-## <a name="Analysis"></a>Data Analysis
+## Data Analysis
 The final part of the project is to answer various questions about the data. The questions are:
 
 * List the employee number, last name, first name, sex, and salary of each employee.
