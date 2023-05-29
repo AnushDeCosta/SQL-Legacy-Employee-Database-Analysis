@@ -1,6 +1,4 @@
-# sql-challenge
-# BootCamp - Module 9 Challenge
-Student Name - Anush De Costa Module 9 Challenge Name - Pewlett Hackard SQL-Challenge
+# Legacy Database Analysis
 
 ## Introduction
 
@@ -60,9 +58,5 @@ To answer these questions, I used SQL queries that extracted the necessary data 
 
 * Data Analysis - 
     * [SQL_Queries](./Employee_SQL/Queries.sql)
-
-## Notes
-* The Tables were populated using the Import function in PostgreSQL 
-* Under the instructions of Van Kruger (The Instructor) Employees.CSV had to be edited to work with PostgreSQL due to date format, Employees_FIXED.CSV file was created and used to import the data to the emplyees table
 
 
