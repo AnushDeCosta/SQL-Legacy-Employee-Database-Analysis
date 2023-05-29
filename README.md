@@ -3,24 +3,22 @@
 ![sql-illustration](https://github.com/AnushDeCosta/SQL-Legacy-Employee-Database-Analysis/assets/67308030/89d42106-3315-454d-b17b-4129416a3804)
 
 ## Introduction
+This analysis is designed to delve into three crucial components, all aiming to provide an in-depth understanding of a legacy database:
+- Establishing Data Model
+- Engineering Data
+- Analysing Data
+- 
+Initially, we dive into the CSV files and construct an Entity Relationship Diagram (ERD) to outline the interrelations of the tables. Following this, we formulate a table schema for the six CSV files and infuse the data from these files into the SQL database. Finally, we use SQL queries to respond to specific questions about the data.
 
-This project consists of three main parts: 
+## Establishing Data Model
+In this part, we examine the CSV files and forge a graphical illustration of the relationships among the tables. To achieve this, we employ QuickDBD, a tool enabling the sketching of a diagram showcasing the connections between tables, encompassing primary keys, foreign keys, and other constraints.
 
-* Data Modeling
-* Data Engineering   
-* Data Analysis
+![ERD_Diagram](https://github.com/AnushDeCosta/SQL-Legacy-Employee-Database-Analysis/assets/67308030/167afa20-1c41-4d8d-822b-3badd0102245)
 
-In the first part, the CSV files are inspected and an Entity Relationship Diagram (ERD) of the tables is sketched. 
-In the second part, a table schema is created for each of the six CSV files and the data from the CSV files are imported into the SQL database.
-In the final part, various questions about the data are answered via SQL queries.
+## Engineering Data
+Upon completion of the ERD, we move forward to formulating the table schemas for each of the six CSV files. This involves specifying the data types, primary keys, foreign keys, and other constraints for every column. Ensuring the uniqueness of primary keys is vital here.
 
-## Data Modeling
-In this section I inspected the CSV files and create a visual representation of the relationships between the tables. To do this, I used a tool called QuickDBD. This tool allowed me to draw a diagram that shows the relationships between tables, including the primary keys, foreign keys, and other constraints.
-
-## Data Engineering
-Once I created the ERD, the next step was to create the table schemas for each of the six CSV files. To do this, I specified the data types, primary keys, foreign keys, and other constraints for each column. I also needed to make sure that the primary keys are unique. 
-
-It was important to create the tables in the correct order so that the foreign keys could be referenced correctly. I imported the data from the CSV files into the corresponding SQL tables. To avoid errors, it was important to import the data in the same order as the tables were created and to account for the headers when importing the data.
+It's paramount to establish the tables in the appropriate order to reference the foreign keys accurately. The data from the CSV files are then imported into the corresponding SQL tables. To prevent errors, it's crucial to import the data following the order of table creation and consider the headers during the import.
 
 ## Data Analysis
 The final part of the project is to answer various questions about the data. The questions are:
