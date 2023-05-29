@@ -7,7 +7,7 @@ This analysis is designed to delve into three crucial components, all aiming to 
 - Establishing Data Model
 - Engineering Data
 - Analysing Data
-- 
+
 Initially, we dive into the CSV files and construct an Entity Relationship Diagram (ERD) to outline the interrelations of the tables. Following this, we formulate a table schema for the six CSV files and infuse the data from these files into the SQL database. Finally, we use SQL queries to respond to specific questions about the data.
 
 ## Establishing Data Model
@@ -20,26 +20,21 @@ Upon completion of the ERD, we move forward to formulating the table schemas for
 
 It's paramount to establish the tables in the appropriate order to reference the foreign keys accurately. The data from the CSV files are then imported into the corresponding SQL tables. To prevent errors, it's crucial to import the data following the order of table creation and consider the headers during the import.
 
-## Data Analysis
-The final part of the project is to answer various questions about the data. The questions are:
+## Analysing Data
+The final segment of the analysis involves addressing certain questions about the data. The queries include:
 
-* List the employee number, last name, first name, sex, and salary of each employee.
+- Listing the employee number, last name, first name, gender, and salary of each employee.
+- Providing the first name, last name, and hire date for employees who joined in 1986.
+- Enlisting the manager of every department along with their department number, department name, employee number, last name, and first name.
+- Documenting the department number for every employee along with their employee number, last name, first name, and department name.
+- Presenting the first name, last name, and gender of each employee bearing the first name Hercules and whose last name begins with B.
+- Listing all employees in the Sales department, including their employee number, last name, and first name.
+- Enlisting each employee in the Sales and Development departments, inclusive of their employee number, last name, first name, and department name.
+- Recording the frequency counts, in descending order, of all employee last names (indicating how many employees share each last name).
 
-* List the first name, last name, and hire date for the employees who were hired in 1986.
+To address these questions, we resort to SQL queries that fetch the necessary data from the SQL database.
 
-* List the manager of each department along with their department number, department name, employee number, last name, and first name.
 
-* List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-
-* List the first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
-
-* List each employee in the Sales department, including their employee number, last name, and first name.
-
-* List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-* List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
-
-To answer these questions, I used SQL queries that extracted the necessary data from the SQL database.
 
 ## Tools
 * Quick DBD
