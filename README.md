@@ -1,5 +1,7 @@
 # Legacy Database Analysis
 
+![sql-illustration](https://github.com/AnushDeCosta/SQL-Legacy-Employee-Database-Analysis/assets/67308030/89d42106-3315-454d-b17b-4129416a3804)
+
 ## Introduction
 
 This project consists of three main parts: 
