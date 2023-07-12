@@ -2,6 +2,9 @@
 
 ![sql-illustration](https://github.com/AnushDeCosta/SQL-Legacy-Employee-Database-Analysis/assets/67308030/89d42106-3315-454d-b17b-4129416a3804)
 
+## Summary
+The Legacy Database Insights project aims to provide an in-depth understanding of a legacy database through three crucial components: Establishing Data Model, Engineering Data, and Analyzing Data. The analysis involves constructing an Entity Relationship Diagram (ERD), formulating table schemas, importing data into an SQL database, and utilizing SQL queries to gain insights from the data.
+
 ## Introduction
 This analysis is designed to delve into three crucial components, all aiming to provide an in-depth understanding of a legacy database:
 - Establishing Data Model
